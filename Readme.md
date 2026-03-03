@@ -61,10 +61,51 @@ Before getting started, ensure you have:
 
 ---
 
-# ⚙ Installation Guide
+# 🔁 Experiment & Iterate
 
-## Step 1: Clone the Repository
+Prompt engineering is an iterative process. Small refinements in wording, structure, and constraints can significantly improve output quality.
 
-```bash
-git clone https://github.com/your-username/prompt-engineering-masterclass.git
-cd prompt-engineering-masterclass
+## How to Iterate Effectively
+
+- Modify prompts and compare outputs  
+- Adjust instruction clarity and specificity  
+- Add constraints (length, format, tone, structure)  
+- Provide examples within prompts (few-shot prompting)  
+- Break complex tasks into smaller sub-prompts  
+- Test edge cases to evaluate robustness  
+
+## Best Practices
+
+- Be explicit about the desired output format  
+- Define role/context clearly (e.g., "You are a data analyst...")  
+- Specify tone (formal, concise, detailed, etc.)  
+- Use delimiters to separate instructions from input text  
+- Iterate systematically rather than randomly
+
+---
+
+# 📚 Example Use Cases
+
+Below are practical applications covered in this masterclass.
+
+## 1️⃣ Summarizing
+- Generate a one-sentence summary of a news article  
+- Create executive summaries from long reports  
+- Condense meeting transcripts into key action points  
+
+## 2️⃣ Inferring
+- Predict the sentiment of a customer review  
+- Classify feedback as positive, neutral, or negative  
+- Extract key insights from structured or unstructured data  
+
+## 3️⃣ Transforming
+- Translate a paragraph from English to French  
+- Correct grammatical errors in user-generated text  
+- Rewrite content in a professional or simplified tone  
+
+## 4️⃣ Iterative Prompt Improvement
+- Start with a basic prompt  
+- Analyze output limitations  
+- Refine instructions  
+- Improve formatting and clarity  
+- Optimize for accuracy and consistency
